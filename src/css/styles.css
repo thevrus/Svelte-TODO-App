@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+:root {
+	--box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.05);
+	--main-blue: #097af8;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	background-color: rgb(37, 37, 37);
+	background: linear-gradient(
+		135deg,
+		rgba(30, 87, 153, 1) 0%,
+		rgba(125, 185, 232, 0) 100%
+	);
+	filter: blur(1);
+	width: 100%;
+	height: 100vh;
+	font-family: 'Montserrat', sans-serif;
+	transition: all 0.5s;
+}
+
+button,
+input {
+	outline: none;
+	border: none;
+}
